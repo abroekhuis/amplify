@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 /* import AmplifyUIAngularModule  */
 import { AmplifyUIAngularModule } from '@aws-amplify/ui-angular';
 
@@ -15,7 +17,10 @@ import { AppComponent } from './app.component';
     BrowserModule,
     AppRoutingModule,
     /* configure app with AmplifyUIAngularModule */
-    AmplifyUIAngularModule
+    AmplifyUIAngularModule,
+
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,42 @@
+{
+    "paths": [
+        {
+            "name": "/meel",
+            "lambdaFunction": "amplifyalexanderMeel",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            },
+            "policyResourceName": "/meel"
+        }
+    ],
+    "resourceName": "amplifyalexander",
+    "apiName": "amplifyalexander",
+    "functionArns": [
+        {
+            "lambdaFunction": "amplifyalexanderMeel"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 0,
+        "authRoleName": "amplify-amplifyalexander-dev-142547-authRole",
+        "unAuthRoleName": "amplify-amplifyalexander-dev-142547-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "amplifyalexanderMeel",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

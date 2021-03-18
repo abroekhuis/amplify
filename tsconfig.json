@@ -15,6 +15,11 @@
     "lib": [
       "es2018",
       "dom"
+    ],
+    "noImplicitAny": false,
+    "allowJs": true,
+    "typeRoots": [
+      "node_modules/@types"
     ]
   },
   "angularCompilerOptions": {

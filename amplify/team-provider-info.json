@@ -10,6 +10,17 @@
       "StackName": "amplify-amplifyalexander-dev-142547",
       "StackId": "arn:aws:cloudformation:eu-west-1:513547905716:stack/amplify-amplifyalexander-dev-142547/74aff6a0-87ed-11eb-a459-02620ee4016b",
       "AmplifyAppId": "d3se5cttt88g1v"
+    },
+    "categories": {
+      "auth": {
+        "amplifyalexander6a582ca0": {}
+      },
+      "function": {
+        "amplifyalexanderMeel": {
+          "deploymentBucketName": "amplify-amplifyalexander-dev-142547-deployment",
+          "s3Key": "amplify-builds/amplifyalexanderMeel-2b437662766e36785264-build.zip"
+        }
+      }
     }
   }
 }
